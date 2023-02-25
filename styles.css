@@ -1,3 +1,41 @@
 p{
   color: red;  
 }
+header{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    color: darkorange;
+}
+.btn-group{
+    display: flex;
+    width: 30%;
+    justify-content: space-around;
+    margin: auto;
+    margin-top: 20px;
+}
+.btn{
+    background-color: white;
+    border-radius: 10%;
+    border: 2px black solid;
+    padding: 5px;
+    box-shadow: 1px 1px 1px 1px darkorange;
+}
+.btn:hover{
+    box-shadow: none;
+    cursor: pointer;
+}
+@media (max-width:600px){
+    .btn-group{
+        flex-direction: column;
+    }
+}
+hr{
+    width: 10%;
+    height: 30%;
+    border: 30% darkorange solid;
+    background-color: darkorange;
+}
+#menu{
+    margin-bottom: 0%;
+}
